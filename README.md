@@ -70,11 +70,3 @@ The user provides the number of years of experience, and the model returns the p
 - Real-world application of supervised learning
 - Visual representation of training data and model predictions
 
----
-
-## 🚀 How to Run
-
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/your-username/salary-prediction.git
-   cd salary-prediction
