@@ -1,48 +1,80 @@
-💼 Salary Prediction using Linear Regression
-This project aims to predict the salary of a person based on their years of experience using Linear Regression, one of the simplest and most popular machine learning algorithms.
+# 💼 Salary Prediction using Linear Regression
 
-📘 Overview
-Predicting salaries based on experience is a classic regression problem. This project walks through the process of:
+This project focuses on predicting a person's salary based on their years of experience using **Linear Regression**. It demonstrates a simple yet powerful approach to solving regression problems in machine learning.
 
-Loading and exploring the data
+---
 
-Visualizing the relationship
-Splitting the data for training and testing
-Building a Linear Regression model
-Predicting results
+## 📘 Project Overview
 
-🛠 Tools & Libraries Used
+The objective of this project is to:
+- Understand the relationship between years of experience and salary
+- Build a Linear Regression model to predict salary
+- Visualize the data and the regression line
+- Evaluate predictions using test data
+- Accept user input for prediction
 
-Python – Programming language
-Pandas – For reading and processing data
-Matplotlib – For visualizing the relationship
-Scikit-learn – To apply Linear Regression
+---
 
-📁 Dataset
-File Name: salary_data.csv
+## 📁 Dataset
 
-Features:
+- **Filename**: `salary_data.csv`
+- **Columns**:
+  - `YearsExperience`: Number of years a person has worked
+  - `Salary`: Salary corresponding to the experience
 
-YearsExperience: Number of years a person has worked
-Salary: Corresponding salary in ₹ or $
-This is a small dataset often used to teach linear regression concepts.
+This is a small, commonly used dataset ideal for learning regression techniques.
 
-🔍 Project Flow
+---
 
-1. Load and Understand the Data
-The dataset is loaded and basic inspection is done to understand the columns and structure.
+## 🛠️ Technologies Used
 
-2. Visualize the Data
-A scatter plot is created to show how salary increases with experience. This helps confirm a linear trend.
+- Python
+- pandas
+- matplotlib
+- scikit-learn
 
-3. Train-Test Split
-The data is split into a training set to train the model and a test set to evaluate how well the model works.
+---
 
-4. Model Training
-A Linear Regression model is trained to find the best-fit line that explains the relationship between experience and salary.
+## 🔁 Workflow
 
-5. Prediction
-Once trained, the model can predict salaries for new or test experience values.
+1. **Load the Data**  
+   Read the dataset using `pandas`.
 
-6. User Input
-The program accepts user input for years of experience and shows the predicted salary.
+2. **Visualize the Data**  
+   Create a scatter plot to see the trend between experience and salary.
+
+3. **Split the Data**  
+   Use `train_test_split` to divide data into training and testing sets.
+
+4. **Train the Model**  
+   Apply `LinearRegression` from `sklearn` to fit the model on training data.
+
+5. **Make Predictions**  
+   Predict salary values using test data and user input.
+
+6. **Visualize the Regression Line**  
+   Plot the best-fit line along with the original training data.
+
+---
+
+## 📈 Example Use Case
+
+The user provides the number of years of experience, and the model returns the predicted salary based on learned patterns from the training data.
+
+---
+
+## ✅ Key Features
+
+- Easy-to-follow structure for Linear Regression
+- Beginner-friendly code
+- Real-world application of supervised learning
+- Visual representation of training data and model predictions
+
+---
+
+## 🚀 How to Run
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/salary-prediction.git
+   cd salary-prediction
